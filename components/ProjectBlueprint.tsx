@@ -30,7 +30,7 @@ const Definition: React.FC<{ term: string; children: React.ReactNode }> = ({ ter
 const ProjectBlueprint: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto bg-gray-800 rounded-lg shadow-xl p-8">
-        <h1 className="text-3xl font-bold text-white mb-2">Project Blueprint: SNS Thumbnail Generator</h1>
+        <h1 className="text-3xl font-bold text-white mb-2">Project Blueprint: Muzu Thumbnail Generator</h1>
         <p className="text-gray-400 mb-6">
             This application is a sophisticated tool that leverages multiple AI models for a seamless user experience. It has two primary user journeys: Text-to-Thumbnail and Image-to-Thumbnail. This document breaks down the core AI prompts, settings, and logic that power the application.
         </p>

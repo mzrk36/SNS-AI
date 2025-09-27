@@ -179,7 +179,7 @@ const SilenceRemover: React.FC = () => {
         <div className="max-w-4xl mx-auto bg-gray-800 rounded-lg shadow-xl p-8">
             <div className="flex items-center mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M3 12h3m0 0h3m-3 0V9m0 6v-3m6-6v12m3-12v12m3-12v12M9 3v18" /></svg>
-                <h2 className="text-2xl font-bold text-white">SNS Silence Remover</h2>
+                <h2 className="text-2xl font-bold text-white">Muzu Silence Remover</h2>
             </div>
             <p className="text-gray-400 mb-8">Remove silent sections from your audio files directly in the browser. Your files are processed locally and are never uploaded.</p>
             

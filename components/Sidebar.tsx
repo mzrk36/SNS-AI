@@ -52,12 +52,12 @@ const Sidebar: React.FC<SidebarProps> = ({ currentView, setView }) => {
     { view: View.ViralTopicFinder, icon: <TopicIcon />, label: 'Viral Topic Ideas' },
     { view: View.YoutubeNicheResearch, icon: <ResearchIcon />, label: 'YouTube Niche Research' },
     { view: View.ScriptPromptTemplate, icon: <TemplateIcon />, label: 'Script Prompt Template' },
-    { view: View.ScriptWritingSNS, icon: <PenIcon />, label: 'Script Writing by SNS' },
+    { view: View.ScriptWritingMuzu, icon: <PenIcon />, label: 'Script Writing by Muzu' },
     { view: View.Chat, icon: <ChatIcon />, label: 'Long Script Writing' },
-    { view: View.SilenceRemover, icon: <WaveformIcon />, label: 'SNS Silence Remover' },
-    { view: View.AudioEnhancer, icon: <AudioEnhancerIcon />, label: 'SNS Audio Enhancer' },
+    { view: View.SilenceRemover, icon: <WaveformIcon />, label: 'Muzu Silence Remover' },
+    { view: View.AudioEnhancer, icon: <AudioEnhancerIcon />, label: 'Muzu Audio Enhancer' },
     { view: View.Image, icon: <ImageIcon />, label: 'Thumbnail Generator' },
-    { view: View.SNSWorld, icon: <WorldIcon />, label: 'SNS Thumbnail Generator' },
+    { view: View.MuzuWorld, icon: <WorldIcon />, label: 'Muzu Thumbnail Generator' },
     { view: View.Logo, icon: <LogoIcon />, label: 'Logo Generator' },
     { view: View.YoutubeBanner, icon: <BannerIcon />, label: 'YouTube Banner Generator' },
     { view: View.YoutubeName, icon: <TagNameIcon />, label: 'YouTube Name Generator' },
@@ -72,7 +72,7 @@ const Sidebar: React.FC<SidebarProps> = ({ currentView, setView }) => {
             <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.562L16.25 22.5l-.648-1.938a3.375 3.375 0 00-2.685-2.685L11.25 18l1.938-.648a3.375 3.375 0 002.685-2.685L16.25 13.5l.648 1.938a3.375 3.375 0 002.685 2.685L21.75 18l-1.938.648a3.375 3.375 0 00-2.685 2.685z" />
           </svg>
         </div>
-        <h1 className="ml-3 text-xl font-bold text-white">SNS AI</h1>
+        <h1 className="ml-3 text-xl font-bold text-white">Muzu AI</h1>
       </div>
       <nav>
         <ul>

@@ -8,9 +8,9 @@ import LogoGenerator from './components/LogoGenerator';
 import SilenceRemover from './components/SilenceRemover';
 import AudioEnhancer from './components/AudioEnhancer';
 import ViralIdeasGenerator from './components/ViralIdeasGenerator';
-import ScriptWritingSNS from './components/script-writing-sns/ScriptWritingSNS';
+import ScriptWritingMuzu from './components/script-writing-sns/ScriptWritingSNS';
 import ViralTitleIdeas from './components/ViralTitleIdeas';
-import SNSWorld from './components/SNSWorld';
+import MuzuWorld from './components/SNSWorld';
 import YoutubeBannerGenerator from './components/YoutubeBannerGenerator';
 import YoutubeNameGenerator from './components/YoutubeNameGenerator';
 import YoutubeNicheResearch from './components/YoutubeNicheResearch';
@@ -30,14 +30,14 @@ const App: React.FC = () => {
         return <YoutubeNicheResearch />;
       case View.ScriptPromptTemplate:
         return <ViralIdeasGenerator />;
-      case View.ScriptWritingSNS:
-        return <ScriptWritingSNS />;
+      case View.ScriptWritingMuzu:
+        return <ScriptWritingMuzu />;
       case View.Chat:
         return <ChatInterface />;
       case View.Image:
         return <ImageGenerator />;
-      case View.SNSWorld:
-        return <SNSWorld />;
+      case View.MuzuWorld:
+        return <MuzuWorld />;
       case View.Logo:
         return <LogoGenerator />;
       case View.YoutubeBanner:

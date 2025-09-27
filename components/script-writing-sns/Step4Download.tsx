@@ -13,7 +13,7 @@ const Step4Download: React.FC<Step4Props> = ({ finalScript, onRestart }) => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'script-by-sns.txt';
+    a.download = 'script-by-muzu.txt';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

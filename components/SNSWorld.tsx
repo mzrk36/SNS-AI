@@ -19,7 +19,7 @@ const fileToBase64 = (file: File): Promise<{ data: string; mimeType: string }> =
     });
 };
 
-const SNSWorld: React.FC = () => {
+const MuzuWorld: React.FC = () => {
     const [appState, setAppState] = useState<AppState>('HOME');
     const [flowType, setFlowType] = useState<FlowType>(null);
     const [userIdea, setUserIdea] = useState('');
@@ -240,4 +240,4 @@ const SNSWorld: React.FC = () => {
     );
 };
 
-export default SNSWorld;
+export default MuzuWorld;

@@ -8,7 +8,7 @@ import Step2OutlineDisplay from './Step2OutlineDisplay';
 import Step3SectionExpansion from './Step3SectionExpansion';
 import Step4Download from './Step4Download';
 
-const ScriptWritingSNS: React.FC = () => {
+const ScriptWritingMuzu: React.FC = () => {
   const [currentStep, setCurrentStep] = useState<Step>(Step.INIT);
   const [videoTitle, setVideoTitle] = useState('');
   const [outlinePrompt, setOutlinePrompt] = useState('');
@@ -151,10 +151,10 @@ const ScriptWritingSNS: React.FC = () => {
         {renderCurrentStep()}
       </div>
       <footer className="text-center text-gray-500 text-sm mt-8">
-        <p>&copy; {new Date().getFullYear()} Script Writing by SNS. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Script Writing by Muzu. All rights reserved.</p>
       </footer>
     </div>
   );
 };
 
-export default ScriptWritingSNS;
+export default ScriptWritingMuzu;
